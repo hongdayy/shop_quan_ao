@@ -26,6 +26,7 @@ const CartTotal = () => {
           </p>
         </div>
         <hr />
+        
         <div className='flex justify-between'>
           <p>Tổng tiền</p>
           <p>

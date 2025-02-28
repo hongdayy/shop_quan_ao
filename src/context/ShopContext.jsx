@@ -1,5 +1,5 @@
 import React, { createContext, useState } from 'react';
-import { products } from '../assets/assets';
+import { products } from '../assets/assets'; // Thư mục chứa các sản phẩm
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 
@@ -13,7 +13,8 @@ const ShopContextProvider = ({ children }) => {
   const [search, setSearch] = useState('');
   const [showSearch, setShowSearch] = useState(false);
   const [cartItems, setCartItems] = useState({});
-  const [orders, setOrders] = useState([]); // Không lưu vào localStorage
+  const [orders, setOrders] = useState([]);
+  const [wishlist, setWishlist] = useState([]); // Danh sách yêu thích
 
   // Thêm sản phẩm vào giỏ hàng
   const addToCart = (itemId, size) => {
@@ -79,6 +80,19 @@ const ShopContextProvider = ({ children }) => {
     navigate('/orders');
   };
 
+  // Thêm/xóa sản phẩm vào danh sách yêu thích
+  const toggleWishlist = (itemId) => {
+    setWishlist((prev) => {
+      if (prev.includes(itemId)) {
+        // Nếu sản phẩm đã có trong danh sách yêu thích, xóa nó
+        return prev.filter((id) => id !== itemId);
+      } else {
+        // Nếu chưa có, thêm sản phẩm vào danh sách yêu thích
+        return [...prev, itemId];
+      }
+    });
+  };
+
   const getCartCount = () => {
     return Object.values(cartItems).reduce(
       (total, sizes) => total + Object.values(sizes).reduce((a, b) => a + b, 0),
@@ -113,6 +127,8 @@ const ShopContextProvider = ({ children }) => {
     getCartAmount,
     placeOrder,
     orders,
+    wishlist,
+    toggleWishlist, // Thêm vào context
   };
 
   return <ShopContext.Provider value={value}>{children}</ShopContext.Provider>;

@@ -4,7 +4,10 @@ import { ShopContext } from '../../context/ShopContext';
 import { AiOutlineHeart } from 'react-icons/ai';
 
 const ProductItem = ({ id, image, name, price }) => {
-  const { currency, toggleWishlist } = useContext(ShopContext);
+  const { currency, wishlist, toggleWishlist } = useContext(ShopContext);
+
+  // Kiểm tra sản phẩm đã có trong wishlist hay chưa
+  const isFavorite = wishlist.includes(id);
 
   return (
     <div>
@@ -20,10 +23,13 @@ const ProductItem = ({ id, image, name, price }) => {
             className="absolute top-2 right-2 bg-white p-1 rounded-full"
             onClick={(e) => {
               e.preventDefault(); // Ngăn mở trang sản phẩm khi ấn vào tim
-              toggleWishlist(id);
+              toggleWishlist(id); // Thêm hoặc xóa sản phẩm khỏi wishlist
             }}
           >
-            <AiOutlineHeart className="text-red-500 text-xl" />
+            {/* Nếu sản phẩm đã có trong wishlist thì hiện icon trái tim đỏ */}
+            <AiOutlineHeart
+              className={`text-xl ${isFavorite ? 'text-red-500' : 'text-gray-400'}`}
+            />
           </button>
         </div>
         <p className="pt-3 pb-1 text-sm">{name}</p>

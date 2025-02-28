@@ -17,7 +17,9 @@ const Orders = () => {
             <div key={index} className='py-4 border-t border-b text-gray-700'>
               <h3 className='text-lg font-medium'>Mã đơn: {order.id} - {order.date}</h3>
               <p className='text-gray-500'>Phương thức thanh toán: {order.method}</p>
-              <p className='text-gray-700 font-bold mt-2'>Tổng tiền: {order.totalAmount.toLocaleString('vi-VN')} VND</p>
+              <p className='text-gray-700 font-bold mt-2'>
+                Tổng tiền: {(order.totalAmount * 1000).toLocaleString('vi-VN')} VND
+              </p>
 
               {/* Danh sách sản phẩm trong đơn hàng */}
               {order.items.map((item, idx) => (
@@ -26,7 +28,9 @@ const Orders = () => {
                   <div>
                     <p className='text-base font-medium'>{item.name}</p>
                     <p className='text-sm text-gray-600'>Số lượng: {item.quantity}</p>
-                    <p className='text-sm text-gray-600'>Giá: {item.price.toLocaleString('vi-VN')} VND</p>
+                    <p className='text-sm text-gray-600'>
+                      Giá: {(item.price * 1000).toLocaleString('vi-VN')} VND
+                    </p>
                   </div>
                 </div>
               ))}

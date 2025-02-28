@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom';
 import { FaTrash } from 'react-icons/fa'; // Import icon thùng rác từ react-icons
 
 const Wishlist = () => {
-  const { wishlistItems, products, toggleWishlist } = useContext(ShopContext);
+  const { wishlist, products, toggleWishlist } = useContext(ShopContext); // Sử dụng wishlist từ context
 
+  // Lọc sản phẩm trong wishlist
   const wishlistProducts = products.filter((product) =>
-    wishlistItems.includes(product._id)
+    wishlist.includes(product._id) // Kiểm tra sản phẩm có trong wishlist hay không
   );
 
   const removeFromWishlist = (productId) => {
