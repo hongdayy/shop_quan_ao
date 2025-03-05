@@ -58,6 +58,40 @@ import p_img52 from './p_img52.png'
 
 
 
+import product1 from './product1.jpg';
+import product2 from './product2.jpg';
+import product3 from './product3.jpg';
+import product4 from './product4.jpg';
+import product5 from './product5.jpg';
+import product6 from './product6.jpg';
+import product7 from './product7.jpg';
+import product8 from './product8.jpg';
+import product9 from './product9.jpg';
+import product10 from './product10.jpg';
+import product11 from './product11.jpg';
+import product12 from './product12.png';
+import product13 from './product13.png';
+import product14 from './product14.jpg';
+import product15 from './product15.png';
+import product16 from './product16.jpg';
+import product17 from './product17.jpg';
+import product18 from './product18.jpg';
+import product19 from './product19.jpg';
+import product20 from './product20.jpg';
+import product21 from './product21.jpg';
+import product22 from './product22.jpg';
+import product23 from './product23.jpg';
+import product24 from './product24.jpg';
+import product25 from './product25.jpg';
+
+export {
+  product1, product2, product3, product4, product5, product6,
+  product7, product8, product9, product10, product11, product12,
+  product13, product14, product15, product16, product17, product18,
+  product19, product20, product21, product22, product23, product24,
+  product25
+};
+
 
 
 import logo from './logo.png'
@@ -250,7 +284,7 @@ export const products = [
         "name": "Áo Cổ Tròn Phụ Nữ Cotton",
         "description": "Chiếc áo nhẹ, thường được làm từ vải đan, có cổ tròn và tay ngắn, thích hợp làm áo lót hoặc áo ngoài cho phái đẹp.",
         "price": 100,
-        "image": [p_img1],
+        "image": [product1],
         "category": "Women",
         "subCategory": "Topwear",
         "sizes": ["S", "M", "L"],
@@ -274,7 +308,7 @@ export const products = [
         "name": "Áo Cổ Tròn Dành Cho Bé Gái",
         "description": "Áo cotton dành cho bé gái với thiết kế cổ tròn và tay ngắn, phù hợp cho các bé mặc hàng ngày hoặc trong những buổi dã ngoại.",
         "price": 220,
-        "image": [p_img3],
+        "image": [product2],
         "category": "Kids",
         "subCategory": "Topwear",
         "sizes": ["S", "L", "XL"],
@@ -286,7 +320,7 @@ export const products = [
         "name": "Áo Thun Nam Cổ Tròn Hữu Cơ",
         "description": "Áo thun cổ tròn, làm từ vải cotton hữu cơ, mang đến cảm giác thoải mái cho người mặc với thiết kế cổ điển và tay ngắn.",
         "price": 110,
-        "image": [p_img4],
+        "image": [product3],
         "category": "Men",
         "subCategory": "Topwear",
         "sizes": ["S", "M", "XXL"],
@@ -298,7 +332,7 @@ export const products = [
         "name": "Áo Cotton Nữ Cổ Tròn Mềm Mại",
         "description": "Áo cotton dành cho phụ nữ, thiết kế với cổ tròn và tay ngắn, mang đến sự thoải mái và thanh lịch cho người mặc.",
         "price": 130,
-        "image": [p_img5],
+        "image": [product4],
         "category": "Women",
         "subCategory": "Topwear",
         "sizes": ["M", "L", "XL"],
@@ -310,7 +344,7 @@ export const products = [
         "name": "Áo Cotton Dành Cho Bé Gái",
         "description": "Áo cotton nhẹ nhàng với thiết kế cổ tròn và tay ngắn dành cho bé gái, thích hợp cho các hoạt động ngoài trời hoặc đi học.",
         "price": 140,
-        "image": [p_img6],
+        "image": [product5],
         "category": "Kids",
         "subCategory": "Topwear",
         "sizes": ["S", "L", "XL"],
@@ -322,7 +356,7 @@ export const products = [
         "name": "Quần Tây Nam Cạp Vừa",
         "description": "Một chiếc quần tây nam lịch sự, phù hợp cho các dịp công sở hoặc đi chơi.",
         "price": 190,
-        "image": [p_img7],
+        "image": [product6],
         "category": "Men",
         "subCategory": "Bottomwear",
         "sizes": ["S", "L", "XL"],
@@ -334,7 +368,7 @@ export const products = [
         "name": "Áo Thun Cổ Tròn Nam 100% Cotton",
         "description": "Áo thun nam cổ tròn với chất liệu cotton 100%, đem lại sự thoải mái khi mặc.",
         "price": 140,
-        "image": [p_img8],
+        "image": [product7],
         "category": "Men",
         "subCategory": "Topwear",
         "sizes": ["S", "M", "L", "XL"],
@@ -346,7 +380,7 @@ export const products = [
         "name": "Áo Cotton Cổ Tròn Dành Cho Bé Gái",
         "description": "Áo cotton cổ tròn dành cho bé gái, phù hợp để mặc hàng ngày.",
         "price": 100,
-        "image": [p_img9],
+        "image": [product8],
         "category": "Kids",
         "subCategory": "Topwear",
         "sizes": ["M", "L", "XL"],
@@ -358,7 +392,7 @@ export const products = [
         "name": "Quần Tây Nam Cạp Vừa",
         "description": "Quần tây nam cạp vừa, thích hợp cho công việc văn phòng và các sự kiện trang trọng.",
         "price": 110,
-        "image": [p_img10],
+        "image": [product9],
         "category": "Men",
         "subCategory": "Bottomwear",
         "sizes": ["S", "L", "XL"],
@@ -371,7 +405,7 @@ export const products = [
         "name": "Áo Thun Cổ Tròn Nam Hữu Cơ",
         "description": "Một chiếc áo nhẹ, thường được đan, áo chui đầu ôm sát với cổ tròn và tay ngắn, mặc như áo lót hoặc áo ngoài.",
         "price": 120,
-        "image": [p_img11],
+        "image": [product10],
         "category": "Men",
         "subCategory": "Topwear",
         "sizes": ["S", "M", "L"],
@@ -383,7 +417,7 @@ export const products = [
         "name": "Áo Thun Cổ Tròn Nam 100% Cotton",
         "description": "Một chiếc áo nhẹ, thường được đan, áo chui đầu ôm sát với cổ tròn và tay ngắn, mặc như áo lót hoặc áo ngoài.",
         "price": 150,
-        "image": [p_img12],
+        "image": [product11],
         "category": "Men",
         "subCategory": "Topwear",
         "sizes": ["S", "M", "L", "XL"],
@@ -395,7 +429,7 @@ export const products = [
         "name": "Áo Nữ Cổ Tròn Bằng Cotton",
         "description": "Một chiếc áo nhẹ, thường là áo đan, ôm sát và có cổ tròn cùng tay ngắn, được mặc như áo lót hoặc áo ngoài.",
         "price": 130,
-        "image": [p_img13],
+        "image": [product12],
         "category": "Women",
         "subCategory": "Topwear",
         "sizes": ["S", "M", "L", "XL"],
@@ -407,7 +441,7 @@ export const products = [
         "name": "Áo Thun Cổ Tròn Bằng Cotton Cho Bé Trai",
         "description": "Một chiếc áo nhẹ, thường là áo thun, ôm sát và có cổ tròn cùng tay ngắn, thường được mặc như áo lót hoặc áo ngoài.",
         "price": 160,
-        "image": [p_img14],
+        "image": [product13],
         "category": "Kids",
         "subCategory": "Topwear",
         "sizes": ["S", "M", "L", "XL"],
@@ -419,7 +453,7 @@ export const products = [
         "name": "Quần Tây Nam Cắt Suông Phía Trước",
         "description": "Một chiếc quần nhẹ, kiểu dáng suông, được thiết kế với phần trước phẳng và có dáng vừa vặn, thích hợp cho các dịp trang trọng.",
         "price": 140,
-        "image": [p_img15],
+        "image": [product14],
         "category": "Men",
         "subCategory": "Bottomwear",
         "sizes": ["S", "M", "L", "XL"],
@@ -431,7 +465,7 @@ export const products = [
         "name": "Áo Nữ Cổ Tròn Bằng Cotton Cho Bé Gái",
         "description": "Áo thun cổ tròn nhẹ, ôm sát cơ thể, có tay ngắn, phù hợp cho các bé gái, có thể mặc làm áo lót hoặc áo ngoài.",
         "price": 170,
-        "image": [p_img16],
+        "image": [product15],
         "category": "Kids",
         "subCategory": "Topwear",
         "sizes": ["S", "M", "L", "XL"],
@@ -443,7 +477,7 @@ export const products = [
         "name": "Quần Tây Nam Cắt Suông Phía Trước",
         "description": "Quần cắt suông nam, được làm từ chất liệu nhẹ nhàng, có kiểu dáng gọn gàng và thoải mái, thích hợp cho những buổi gặp mặt trang trọng.",
         "price": 150,
-        "image": [p_img17],
+        "image": [product16],
         "category": "Men",
         "subCategory": "Bottomwear",
         "sizes": ["S", "M", "L", "XL"],
@@ -455,7 +489,7 @@ export const products = [
         "name": "Áo Thun Cổ Tròn Bằng Cotton Cho Bé Trai",
         "description": "Áo thun cổ tròn nhẹ, thoải mái, với chất liệu cotton mềm mại, dễ dàng phối hợp với nhiều trang phục khác.",
         "price": 180,
-        "image": [p_img18],
+        "image": [product17],
         "category": "Kids",
         "subCategory": "Topwear",
         "sizes": ["S", "M", "L", "XL"],
@@ -467,7 +501,7 @@ export const products = [
         "name": "Áo Thun Cổ Tròn Bằng Cotton Cho Bé Trai",
         "description": "Áo thun cổ tròn làm từ chất liệu cotton, có thiết kế đơn giản, thích hợp cho bé trai trong những ngày mùa hè nóng bức.",
         "price": 160,
-        "image": [p_img19],
+        "image": [product18],
         "category": "Kids",
         "subCategory": "Topwear",
         "sizes": ["S", "M", "L", "XL"],
@@ -479,7 +513,7 @@ export const products = [
         "name": "Quần Palazzo Nữ Có Thắt Lưng",
         "description": "Quần palazzo nữ được thiết kế rộng rãi, thoải mái, có thắt lưng để tạo điểm nhấn, thích hợp cho những dịp đi chơi hoặc dạo phố.",
         "price": 190,
-        "image": [p_img20],
+        "image": [product19],
         "category": "Women",
         "subCategory": "Bottomwear",
         "sizes": ["S", "M", "L", "XL"],
@@ -491,7 +525,7 @@ export const products = [
         "name": "Áo Khoác Nữ Cổ Kéo Chéo Ôm Thoải Mái",
         "description": "Áo khoác nữ có thiết kế cổ kéo chéo, ôm vừa vặn cơ thể, thích hợp cho mùa đông hoặc khi cần mặc thêm lớp ấm.",
         "price": 170,
-        "image": [p_img21],
+        "image": [product20],
         "category": "Women",
         "subCategory": "Winterwear",
         "sizes": ["S", "M", "L", "XL"],
@@ -503,7 +537,7 @@ export const products = [
         "name": "Quần Palazzo Nữ Có Thắt Lưng",
         "description": "Quần palazzo nữ có thiết kế thắt lưng chắc chắn, mang lại sự thoải mái khi vận động và phù hợp cho các dịp dạo phố, mua sắm.",
         "price": 200,
-        "image": [p_img22],
+        "image": [product21],
         "category": "Women",
         "subCategory": "Bottomwear",
         "sizes": ["S", "M", "L", "XL"],
@@ -515,7 +549,7 @@ export const products = [
         "name": "Áo Thun Cổ Tròn Bằng Cotton Cho Bé Trai",
         "description": "Áo thun cổ tròn mềm mại, được làm từ chất liệu cotton cao cấp, lý tưởng cho các bé trai mặc trong các hoạt động ngoài trời.",
         "price": 180,
-        "image": [p_img23],
+        "image": [product22],
         "category": "Kids",
         "subCategory": "Topwear",
         "sizes": ["S", "M", "L", "XL"],
@@ -527,7 +561,7 @@ export const products = [
         "name": "Áo Thun Cổ Tròn Bằng Cotton Cho Bé Trai",
         "description": "Áo thun cổ tròn dễ mặc với chất liệu cotton mềm mại, giúp bé cảm thấy thoải mái trong suốt cả ngày dài.",
         "price": 210,
-        "image": [p_img24],
+        "image": [product23],
         "category": "Kids",
         "subCategory": "Topwear",
         "sizes": ["S", "M", "L", "XL"],
@@ -539,7 +573,7 @@ export const products = [
         "name": "Áo Nữ Cổ Tròn Bằng Cotton Cho Bé Gái",
         "description": "Áo cổ tròn dành cho bé gái, được làm từ chất liệu cotton nhẹ nhàng, mang lại sự thoải mái và dễ chịu cho các bé khi mặc.",
         "price": 190,
-        "image": [p_img25],
+        "image": [product24],
         "category": "Kids",
         "subCategory": "Topwear",
         "sizes": ["S", "M", "L", "XL"],
@@ -551,7 +585,7 @@ export const products = [
         "name": "Áo Khoác Nữ Cổ Kéo Chéo Ôm Thoải Mái",
         "description": "Áo khoác nữ thiết kế cổ kéo chéo, mang đến sự ấm áp và thoải mái cho mùa đông, với thiết kế phù hợp cho cả công sở và dạo phố.",
         "price": 220,
-        "image": [p_img26],
+        "image": [product25],
         "category": "Women",
         "subCategory": "Winterwear",
         "sizes": ["S", "M", "L", "XL"],

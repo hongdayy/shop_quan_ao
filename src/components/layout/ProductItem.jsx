@@ -10,13 +10,13 @@ const ProductItem = ({ id, image, name, price }) => {
   const isFavorite = wishlist.includes(id);
 
   return (
-    <div>
+    <div className="p-2">
       <Link className="text-gray-700 cursor-pointer" to={`/product/${id}`}>
-        <div className="overflow-hidden relative">
+        <div className="overflow-hidden relative rounded-lg shadow-md">
           <img
             src={image[0]}
             alt={name}
-            className="hover:scale-110 transition-all ease-in-out"
+            className="w-full h-64 object-cover rounded-lg hover:scale-110 transition-all ease-in-out"
           />
           {/* Nút trái tim thêm vào wishlist */}
           <button
